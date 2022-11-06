@@ -7,13 +7,13 @@ Method1();
 
 //2 Вид методов
 
-void Method2(string msg);
+void Method2(string msg)
 {
     Console.WriteLine(msg);
 }
 Method2("Текст сообщения");
 
-void Method21(string msg, int count);
+void Method21(string msg, int count)
 {
     int i = 0;
     while (i < count)
@@ -64,8 +64,8 @@ string Method41(int count, string text)
     return result;
 }
 
-string res = Method41(10, "asdf");
-Console.WriteLine(res);
+string resshmez = Method41(10, "asdf");
+Console.WriteLine(resshmez);
 
 for (int i = 2; i <= 10; i++)
 {
